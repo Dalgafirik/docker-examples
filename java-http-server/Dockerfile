@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-jdk-jammy
+FROM maven:3.9.6-eclipse-temurin-11
 
 WORKDIR /opt/java-server
 COPY . .
