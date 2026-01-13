@@ -78,6 +78,18 @@ containers behave, interact, and are managed in practice.
 
 ```text
 docker-examples/
+├── docker-compose-examples/
+│   ├── java-http-server/
+│   │   ├── docker-compose.yml
+│   │   └── README.md
+│   ├── java-mongo-todo/
+│   │   ├── docker-compose.yml
+│   │   └── README.md
+│   ├── wordpress-mysql/
+│   │   ├── docker-compose.yml
+│   │   └── README.md
+│   └── README.md
+│
 ├── mysql-phpmyadmin/
 │   └── README.md
 ├── ubuntu-base-runtime/
@@ -88,6 +100,7 @@ docker-examples/
 │   └── README.md
 ├── java-mongo-todo/
 │   └── README.md
+│
 └── README.md
 ```
 
